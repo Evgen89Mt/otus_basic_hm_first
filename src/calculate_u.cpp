@@ -23,3 +23,18 @@
         {
             return a * a;
         }
+
+        double Calculate_u::multiply(double a, double b)
+        {
+            return a * b;
+        }
+
+        double Calculate_u::divide(double a, double b)
+        {
+            if (b == 0.0)
+            {
+                return 0.0;
+            }
+
+            return a / b;
+        }

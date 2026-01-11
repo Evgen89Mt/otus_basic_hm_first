@@ -1,5 +1,7 @@
 #pragma once
 
+#include <iostream>
+
 class Calculate_u
 {
     public:
@@ -11,4 +13,7 @@ class Calculate_u
 
         double average(double a, double b);
         double square(double a);
+
+        double multiply(double a, double b);
+        double divide(double a, double b);
 };

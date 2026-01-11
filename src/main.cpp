@@ -19,5 +19,11 @@ int main()
     res_db = math.square(5.5);
     std::cout << "square >> 5.5 = " << res_db << std::endl;
 
+    res_db = math.multiply(6.9, 9.8);
+    std::cout << "multiply >> 6.9 * 9.8 = " << res_db << std::endl;
+
+    res_db = math.divide(240.8, 5.5);
+    std::cout << "divide >> 240.8 / 5.5 = " << res_db << std::endl; 
+
     return 0;
 }
