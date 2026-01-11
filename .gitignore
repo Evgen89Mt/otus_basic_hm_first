@@ -1,0 +1,18 @@
+# Build directions
+build/
+*.o
+*.a
+*.so
+*.dylib
+
+# Executable
+first_hm
+*.exe
+*.out
+
+# IDE files
+.vscode/
+
+# Temp
+*.tmp 
+*.Temp
