@@ -4,14 +4,20 @@
 
 int main()
 {
-    std::cout<<"Mini calculate: "<<std::endl;
+    std::cout << "Mini calculate: " << std::endl;
     
     Calculate_u math;
     int res = math.add(7, 9);
-    std::cout<<"Func add >> 7 + 9 = "<< res << std::endl;
+    std::cout << "add >> 7 + 9 = " << res << std::endl;
 
     res = math.subtract(170, 52);
-    std::cout<<"Func subtract >> 170 - 52 = " << res << std::endl; 
+    std::cout << "subtract >> 170 - 52 = " << res << std::endl; 
+
+    double res_db = math.average(23.45, 73.9);
+    std::cout << "average >> 23.34 and 73.9 = "<< res_db << std::endl;
+
+    res_db = math.square(5.5);
+    std::cout << "square >> 5.5 = " << res_db << std::endl;
 
     return 0;
 }

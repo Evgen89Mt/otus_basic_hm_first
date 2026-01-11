@@ -8,4 +8,7 @@ class Calculate_u
 
         int add(int a, int b);
         int subtract(int a, int b);
+
+        double average(double a, double b);
+        double square(double a);
 };
