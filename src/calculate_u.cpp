@@ -4,12 +4,12 @@
         Calculate_u::~Calculate_u(){}
         
 
-        int Calculate_u::add(int a, int b)
+        double Calculate_u::add(double a, double b)
         {
             return a + b;
         }
 
-        int Calculate_u::subtract(int a, int b)
+        double Calculate_u::subtract(double a, double b)
         {
             return a - b;
         }

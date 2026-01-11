@@ -7,17 +7,17 @@ int main()
     std::cout << "Mini calculate: " << std::endl;
     
     Calculate_u math;
-    int res = math.add(7, 9);
-    std::cout << "add >> 7 + 9 = " << res << std::endl;
+    double res = math.add(7.5, 9.1);
+    std::cout << "add >> 7.5 + 9.1 = " << res << std::endl;
 
-    res = math.subtract(170, 52);
-    std::cout << "subtract >> 170 - 52 = " << res << std::endl; 
+    res = math.subtract(170.5, 52.8);
+    std::cout << "subtract >> 170.5 - 52.8 = " << res << std::endl; 
 
-    double res_db = math.average(23.45, 73.9);
-    std::cout << "average >> 23.34 and 73.9 = "<< res_db << std::endl;
+    res = math.average(23.45, 73.9);
+    std::cout << "average >> 23.34 and 73.9 = "<< res << std::endl;
 
-    res_db = math.square(5.5);
-    std::cout << "square >> 5.5 = " << res_db << std::endl;
+    res = math.square(5.5);
+    std::cout << "square >> 5.5 = " << res << std::endl;
 
     return 0;
 }

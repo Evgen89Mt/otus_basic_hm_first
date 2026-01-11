@@ -6,8 +6,8 @@ class Calculate_u
         Calculate_u();
         ~Calculate_u();
 
-        int add(int a, int b);
-        int subtract(int a, int b);
+        double add(double a, double b);
+        double subtract(double a, double b);
 
         double average(double a, double b);
         double square(double a);
